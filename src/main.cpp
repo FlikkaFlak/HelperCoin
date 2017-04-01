@@ -1079,8 +1079,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 360; // HelperCoin: 3.5 days
-static const int64 nTargetSpacing = 60; // HelperCoin: 2.5 minutes
+static const int64 nTargetTimespan = 360; // HelperCoin: 6 minutes
+static const int64 nTargetSpacing = 60; // HelperCoin: 1 minute
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
