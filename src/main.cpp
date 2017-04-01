@@ -1073,6 +1073,11 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 8000000000; // 8 Decimal Places/Digits before Whole Number (Satoshi Value)
 
+				if(nHeight == 1)
+            {
+            nSubsidy = 80640000000000; // 806,400 Premine - 8 Decimal Places/Digits before Whole Number (Satoshi Value)
+		}
+	
     // Subsidy is cut in half every 570000 blocks, which will occur approximately every 1+ years
     nSubsidy >>= (nHeight / 570000); // HelperCoin: 570k blocks in ~1+ years
 
