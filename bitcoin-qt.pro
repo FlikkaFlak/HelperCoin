@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = helpercoin-qt
 macx:TARGET = "HelperCoin-Qt"
-VERSION = 0.8.5.1
+VERSION = 0.9.6.2
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
