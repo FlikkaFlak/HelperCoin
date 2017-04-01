@@ -272,7 +272,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 127, // HelperCoin addresses start with L
+        PUBKEY_ADDRESS = 40, // HelperCoin addresses start with H
         SCRIPT_ADDRESS = 125,
         PUBKEY_ADDRESS_TEST = 126,
         SCRIPT_ADDRESS_TEST = 124,
