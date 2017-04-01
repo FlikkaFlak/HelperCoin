@@ -1,0 +1,9 @@
+Building HelperCoin
+
+See doc/readme-qt.rst for instructions on building HelperCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of HelperCoin.
+
+See doc/build-*.txt for instructions on building helpercoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of HelperCoin.

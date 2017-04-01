@@ -1,0 +1,34 @@
+src/*.exe
+src/helpercoin
+src/helpercoind
+src/test_helpercoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.helpercoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+helpercoin-qt
+HelperCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+helpercoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
